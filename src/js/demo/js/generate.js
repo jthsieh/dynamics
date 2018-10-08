@@ -112,7 +112,7 @@
                 // run the engine
                 demo.runner = Runner.create()
                 demo.runner.isFixed = true
-                var pcanvas = PImage.make(800, 600);  // 693
+                var pcanvas = PImage.make(800, 800);  // 693
                 pcanvas.style = {}  
                 console.log(pcanvas)
                 demo.render = Render.create({
@@ -372,7 +372,7 @@
         demo.offset = 5;  // world offset
         demo.config = {}
         demo.config.cx = 400;
-        demo.config.cy = 300;
+        demo.config.cy = 400;
         demo.config.masses = [1, 5, 25]
         demo.config.mass_colors = {'1':'#C7F464', '5':'#FF6B6B', '25':'#4ECDC4'}
         demo.config.sizes = [2/3, 1, 3/2]  // multiples
